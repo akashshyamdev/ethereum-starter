@@ -1,0 +1,20 @@
+{
+  "name": "ethereum",
+  "version": "1.0.0",
+  "description": "A try at learning the blockchain, solidity and ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashshyamdev/ethereum-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashshyamdev/ethereum-starter/issues"
+  },
+  "homepage": "https://github.com/akashshyamdev/ethereum-starter#readme"
+}
