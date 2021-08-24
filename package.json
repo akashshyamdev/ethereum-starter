@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/akashshyamdev/ethereum-starter/issues"
   },
-  "homepage": "https://github.com/akashshyamdev/ethereum-starter#readme"
+  "homepage": "https://github.com/akashshyamdev/ethereum-starter#readme",
+  "dependencies": {
+    "solc": "^0.8.7-fixed"
+  }
 }
