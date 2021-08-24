@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/akashshyamdev/ethereum-starter#readme",
   "dependencies": {
+    "@types/node": "^16.7.1",
     "solc": "^0.8.7-fixed"
   }
 }
