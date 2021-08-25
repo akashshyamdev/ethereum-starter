@@ -16,7 +16,7 @@ async function deploy() {
 		.deploy({ data: bytecode, arguments: ['Hi there!'] })
 		.send({ gas: '1000000', from: accounts[0], gasPrice: 5000000000 });
 
-	console.log(result.options);
+	console.log(result.options.address);
 }
 
 deploy();
