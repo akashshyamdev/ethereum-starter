@@ -1,27 +1,18 @@
 {
-	"name": "ethereum",
-	"version": "1.0.0",
-	"description": "A try at learning the blockchain, solidity and ethereum",
-	"main": "index.js",
-	"scripts": {
-		"test": "mocha tests/*"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/akashshyamdev/ethereum-starter.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/akashshyamdev/ethereum-starter/issues"
-	},
-	"homepage": "https://github.com/akashshyamdev/ethereum-starter#readme",
-	"dependencies": {
-		"@types/node": "^16.7.1",
-		"ganache-cli": "^6.12.2",
-		"mocha": "^9.1.0",
-		"solc": "^0.8.7-fixed",
-		"web3": "^1.5.2"
-	}
+  "name": "inbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^8.3.2",
+    "solc": "^0.4.17",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "web3": "^1.3.5"
+  }
 }

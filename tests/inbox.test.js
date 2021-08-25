@@ -13,6 +13,7 @@ beforeEach(async () => {
 	accounts = await web3.eth.accounts;
 
 	// deploy contract using account[0]
+	console.log('INTERFACE', interface);
 	inbox = await new web3.eth.Contract(interface)
 		.deploy({ data: bytecode, arguments: ['HI There!'] })
 		.send({ from: accounts[0], gas: '1000000' });
@@ -20,6 +21,6 @@ beforeEach(async () => {
 
 describe('Inbox', () => {
 	it('deploys a contract', () => {
-		console.log(inbox);
+		// console.log(inbox);
 	});
 });
