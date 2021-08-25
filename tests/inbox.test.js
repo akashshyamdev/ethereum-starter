@@ -29,4 +29,13 @@ describe('Inbox', () => {
 
 		assert.ok(message, INITIAL_STRING);
 	});
+
+	it('can change the message', async () => {
+		const NEW_MESSAGE = 'bye!';
+
+		await inbox.methods.setMessage(NEW_MESSAGE).send({ from: accounts[0] });
+		const message = await inbox.methods.message().call();
+
+		assert.ok(message, NEW_MESSAGE);
+	});
 });
