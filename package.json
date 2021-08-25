@@ -1,24 +1,27 @@
 {
-  "name": "ethereum",
-  "version": "1.0.0",
-  "description": "A try at learning the blockchain, solidity and ethereum",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akashshyamdev/ethereum-starter.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akashshyamdev/ethereum-starter/issues"
-  },
-  "homepage": "https://github.com/akashshyamdev/ethereum-starter#readme",
-  "dependencies": {
-    "@types/node": "^16.7.1",
-    "solc": "^0.8.7-fixed"
-  }
+	"name": "ethereum",
+	"version": "1.0.0",
+	"description": "A try at learning the blockchain, solidity and ethereum",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha tests/*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/akashshyamdev/ethereum-starter.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/akashshyamdev/ethereum-starter/issues"
+	},
+	"homepage": "https://github.com/akashshyamdev/ethereum-starter#readme",
+	"dependencies": {
+		"@types/node": "^16.7.1",
+		"ganache-cli": "^6.12.2",
+		"mocha": "^9.1.0",
+		"solc": "^0.8.7-fixed",
+		"web3": "^1.5.2"
+	}
 }
